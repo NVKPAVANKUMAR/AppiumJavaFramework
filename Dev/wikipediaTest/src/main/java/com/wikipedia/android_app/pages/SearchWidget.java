@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 /**
- * Created by amir on 05/10/2016.
+ * Created by on 05/10/2016.
  */
 public class SearchWidget extends BaseWidget {
 
@@ -54,8 +54,8 @@ public class SearchWidget extends BaseWidget {
 
     public boolean SearchResultContains(String text) {
         boolean found = false;
-        for(WebElement element : results) {
-            if(element.findElement(By.id("page_list_item_title")).getText().contains(text)) {
+        for (WebElement element : results) {
+            if (element.findElement(By.id("page_list_item_title")).getText().contains(text)) {
                 found = true;
                 break;
             }

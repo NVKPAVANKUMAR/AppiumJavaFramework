@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 /**
- * Created by amir on 05/10/2016.
+ * Created by on 05/10/2016.
  */
 public class ArticlePage extends BaseWidget {
 

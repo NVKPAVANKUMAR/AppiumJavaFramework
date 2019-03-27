@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Created by amir on 05/10/2016.
+ * Created by on 05/10/2016.
  */
 public class BaseWidget {
 
